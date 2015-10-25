@@ -298,7 +298,7 @@ Django заботится о проверке всех полей в нашей 
 
 Мы будем использовать повторно шаблон `blog/templates/blog/post_edit.html`, так что осталось лишь отсутствующее *представление*.
 
-Let's open a `blog/views.py` and add at the very end of the file:
+Давай откроем `blog/views.py` и добавим код в самый конец файла:
 
 ```python
     def post_edit(request, pk):
